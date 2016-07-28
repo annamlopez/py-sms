@@ -6,7 +6,7 @@ media_links_for_sad = ["https://www.google.com/imgres?imgurl=http%3A%2F%2Fmedia.
 media_links_for_alright = ["http://www.boredpanda.com/cute-bunnies/"]
 
 def response_handler(body):
-    message = ""
+    message = "hhhh"
     if body == "WYR":
         print "For next Would You Rather type in WYR."
         message = choice(["Would you rather a. live one life that lasts 1,000 years or b. live 10 lives that last 100 years each?", "Would you rather have to a. sneeze but not be able to or b. have something stuck in your eye for an entire year?", "Would you rather a. wear a snow suit in the desert or b. be naked in Antarctica?", "Would you rather a. have no arms or b. no legs?", "Would you rather be filthy rich but suffer depression or be poor but happy?"])
